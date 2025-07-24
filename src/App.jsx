@@ -1,7 +1,11 @@
 import { useState } from 'react';
 import Input_bar from './components/Input_bar';
 import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import {
+  HashRouter as BrowserRouter,
+  Routes,
+  Route
+} from 'react-router-dom';
 import Submit from './components/Submit';
 import Sidebar from './components/Sidebar';
 import Signup from './components/Signup';
@@ -26,7 +30,6 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/settings" element={<Settings />} />
           <Route path="/printingpreview" element={<PrintingPreview />} />
-          {/* Fallback route for 404 */}
           <Route path="*" element={<h2 style={{ textAlign: 'center', padding: '2rem' }}>404 - Page Not Found</h2>} />
         </Routes>
       </BrowserRouter>
