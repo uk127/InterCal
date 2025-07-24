@@ -13,7 +13,7 @@ import Scrollbar from './components/Scrollbar'
 import Settings from './components/Settings';
 import { AuthProvider } from './AuthContext';
 import Iconeg from "./components/Iconeg";
-import Printingpreview from './components/PrintingPreview';
+import PrintingPreview from './components/PrintingPreview';
 function App() {
 
   return (
@@ -29,7 +29,7 @@ function App() {
           <Route path="/details" element={<Details/>} />
           <Route path="/about" element={<About/>} />
           <Route path="/settings" element={<Settings/>}  />
-          <Route path="/printingpreview" element={<Printingpreview/>} />
+          <Route path="/printingpreview" element={<PrintingPreview/>} />
         </Routes>
       </BrowserRouter>
       </AuthProvider>
