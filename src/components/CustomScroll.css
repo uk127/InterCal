@@ -1,0 +1,48 @@
+.scroll-table-container {
+  width: 100%;
+  padding: 20px;
+}
+
+/* Scrollbar on top */
+.custom-scrollbar {
+  height: 8px;
+  background: #1e1e1e;
+  border-radius: 4px;
+  position: relative;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.custom-thumb {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #000;
+  border-radius: 50px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+/* Hide native scrollbar */
+.table-wrapper {
+  overflow-x: auto;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE */
+}
+
+.table-wrapper::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}
+
+.wide-table {
+  min-width: 1200px;
+  width: max-content;
+  border-collapse: collapse;
+}
+
+.wide-table th,
+.wide-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  white-space: nowrap;
+}

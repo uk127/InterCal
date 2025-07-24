@@ -1,0 +1,72 @@
+
+.print-area {
+  background-color: white;
+  padding: 20px;
+  width: 100%;
+  min-height: 100vh; /* Fills the full viewport height */
+  box-sizing: border-box;
+}
+
+.print-wrapper {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.print-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.print-button:hover {
+  background-color: #0056b3;
+}
+
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.styled-table thead {
+  background-color: #343a40;
+  color: white;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: center;
+  font-size: 14px;
+}
+
+.styled-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.styled-table tbody tr:hover {
+  background-color: #e1e1e1;
+}
+
+/* Hide anything from screen if needed but visible in print */
+@media screen {
+  .pdf-only {
+    display: none;
+  }
+}
+
+@media print {
+  .print-button,
+  h2 {
+    display: none !important;
+  }
+}
