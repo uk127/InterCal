@@ -6,7 +6,6 @@ import subjectRoutes from "./routes/subject.js";
 import externalRoutes from "./routes/external.js";
 import settingsRoutes from "./routes/settings.js";
 import dotenv from "dotenv";
-git 
 
 const app = express();
 dotenv.config();
