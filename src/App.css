@@ -68,7 +68,7 @@ body {
   color: white;
   font-weight: bolder;
   padding: 4px;
-  font-size: 24px;
+  font-size: 20px;
   letter-spacing: 1px;
   text-align: center;
 }
@@ -80,7 +80,7 @@ body {
   font-weight: bold;
   color: white;
   padding: 4px;
-  font-size: 24px;
+  font-size: 20px;
   letter-spacing: 1px;
 }
 
@@ -105,7 +105,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 650px;
+  height: 570px;
   width: 300px;
   background-color: rgba(255, 255, 255, 0.13);
   position: absolute;
@@ -116,8 +116,8 @@ body {
   backdrop-filter: blur(10px);
   border: 2px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
-  padding-top: 20px;
-  padding-bottom: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   padding-left: 30px;
   padding-right: 30px;
 }
@@ -146,7 +146,7 @@ body {
 .input3 {
   font-size: 20px;
   border: 0;
-  height: 40px;
+  height: 30px;
   width: 290px;
   border-radius: 2px;
   margin: 5px;
@@ -173,7 +173,7 @@ body {
   font-size: 20px;
   background: #eaeaea;
   border: 0;
-  height: 40px;
+  height: 30px;
   width: 290px;
   border-radius: 2px;
   margin: 5px;
@@ -237,7 +237,7 @@ body {
   width: 50px;
   cursor: pointer;
   z-index: 1;
-  top: -60px;
+  top: 5px;
   left: -30px;
 }
 
