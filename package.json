@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://intercal-1.onrender.com"
+  "homepage": "https://intercal-1.onrender.com",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
