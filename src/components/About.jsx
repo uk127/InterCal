@@ -17,7 +17,7 @@ const About = () => {
             color: white;
           }
           .heading2 {
-            color: yellow;
+            color: white;
           }
           .highlight {
             color: orange;
