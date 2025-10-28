@@ -108,7 +108,7 @@ function Signin() {
                         <p>No marks found in localStorage.</p>
                     )} */}
                 </div>
-                <h1 className="signin_head">SignIn page</h1>
+                <h1 className="signin_head">SignIn</h1>
                 <div className="sigin_email_head">Enter your email? </div>
                 <input className="signin_email_input" placeholder="Enter email" value={email} onChange={(e) => setEmail(e.target.value)} />
                 <div className="signin_password_head" >Enter password</div>
